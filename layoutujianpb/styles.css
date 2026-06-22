@@ -1,0 +1,97 @@
+* {
+margin:0;
+padding:0;
+}
+
+body{
+font-family:tahoma;
+background:#e0e0e0;
+}
+
+.wadah{
+width:700px;
+margin:20px;
+background:#fff;
+border:2px solid #666;
+}
+
+.atas{
+background:#c0c0c0;
+padding:8px;
+}
+
+.tengah{
+display:flex;
+}
+
+.menu-kiri{
+width:110px;
+background:#d8d8d8;
+padding:12px;
+}
+
+.menu-kiri a{
+display:block;
+padding:4px;
+margin:6px 0;
+background:#999;
+color:#000;
+text-decoration:none;
+font-size:12px;
+}
+
+.menu-kiri .aktif{
+background:#ffcc00;
+font-weight:bold;
+color:#fff;
+}
+
+.menu-kiri a:hover{
+background:#666;
+}
+
+.isi{
+width:450px;
+padding:20px;
+background:#f9f9f9;
+}
+
+.isi h3{
+font-size:14px;
+margin-bottom:15px;
+font-weight:normal;
+}
+
+.isi p{
+font-size:12px;
+line-height:1.4;
+margin-bottom:10px;
+}
+
+.menu-kanan{
+width:140px;
+background:#d0d0d0;
+padding:10px;
+}
+
+.linkku{
+display:block;
+padding:3px;
+margin:5px 0;
+background:#88aacc;
+color:#000;
+text-decoration:none;
+font-size:12px;
+}
+
+.linkku:hover{
+background:#446688;
+}
+
+.bawah{
+background:#222222;
+color:white;
+text-align:center;
+padding:15px;
+font-size:11px;
+}
